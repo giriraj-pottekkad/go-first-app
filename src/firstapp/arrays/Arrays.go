@@ -1,10 +1,10 @@
-package main
+package arrays
 
 import (
 	"fmt"
 )
 
-func printArrays() {
+func PrintArrays() {
 	numbers := []int{1, 2, 3}
 	words := make([]string, 10, 100)
 	fmt.Printf("%v\n", numbers)
